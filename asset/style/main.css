@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+body {
+  font-family: Lato;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  padding: 24px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  border-bottom: 1px solid #eaeaea;
+}
+.my-block {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+.my-block-content,
+.my-img {
+  margin-top: 50px;
+}
+
+.my-block h1 {
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+.my-block p {
+  font-size: 18px;
+  color: red;
+  margin-bottom: 16px;
+}
+.my-block img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 50px;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.links a {
+  display: inline-block;
+  padding: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 6px;
+  background-color: #28a745;
+  color: white;
+}
+.links a:hover {
+  background-color: #333333;
+}
+.ozim-haqimda {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.buttons a {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  font-weight: 900;
+  font-size: 14px;
+}
+.buttons a:hover {
+  background-color: #333333;
+}
+.bootom {
+  text-align: center;
+  padding: 16px;
+  font-size: 14px;
+  color: white;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+.ilhomlandim {
+  display: inline-flex;
+  font-size: 20px;
+  font-weight: 800px;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: #eaeaea;
+  text-decoration: none;
+  color: black;
+}
+.ilhomlandim:hover {
+  background-color: #28a745;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/asset/img/e6ca4511-6392-4bb2-a8e8-a0017a118a12.png);
+  filter: blur(10px); /* Hiralik darajasi */
+  z-index: -1;
+  transform: scale(1.05); /* Blurdan keyin kichik qirralar yo'qolmasin */
+}
+.text {
+  position: absolute;
+  bottom: 50px;
+}
